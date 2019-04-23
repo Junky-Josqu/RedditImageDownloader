@@ -20,7 +20,7 @@ For The original script see [georgeglessner](https://github.com/georgeglessner/R
 
 	Usage: import download_images.py
            download_images.py.download(SUBREDDIT, NUM_PICS, SEARCH_TERM, PAGE, DOWNLOADDIR)
-           #Exaple:
+           #Example:
 	   download_images.py.download('funny', 3, 'cats', 'hot', 'memescat')
 	   
 
