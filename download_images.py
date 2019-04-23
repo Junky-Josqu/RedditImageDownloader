@@ -43,18 +43,12 @@ import signal
 from prawcore import NotFound
 from prawcore import PrawcoreException
 
-ID = ''
-SECRET = ''
-PASSWORD = ''
-AGENT = ''
-USERNAME=''
-
 #SUBREDDIT = 'funny'
 #NUM_PICS = 3
 #SEARCH_TERM = None
 #PAGE = 'hot'
 #DOWNLOADDIR = 'memes'
-def download(SUBREDDIT, NUM_PICS, SEARCH_TERM, PAGE, DOWNLOADDIR):
+def download(SUBREDDIT, NUM_PICS, SEARCH_TERM, PAGE, DOWNLOADDIR, ID, SECRET, PASSWORD, AGENT, USERNAME):
     # initialize variables
     #subreddit = ''
     #num_pics = 0
