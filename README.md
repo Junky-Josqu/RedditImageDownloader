@@ -1,11 +1,11 @@
-# Reddit Image Downloader
+# Reddit Image Downloader -- Module Fork
 
-A reddit application that downloads pictures and gifs from a given subreddit.
-
+A python Module for reddit that downloads pictures and gifs from a given subreddit.
+For The original script see [georgeglessner](https://github.com/georgeglessner/RedditImageDownloader)
 # Setup 
 1. Create a [reddit personal use script application](https://www.reddit.com/prefs/apps/).
 
-2. Add a `credentials.py` file to your working directory and add your applications credentials.
+2. Edit Following Variables in download_images.py and your applications credentials.
 
 		ID='YOUR_ID'  
 		SECRET='YOUR_SECRET'  
@@ -18,17 +18,12 @@ A reddit application that downloads pictures and gifs from a given subreddit.
 # Usage
 
 
-	Usage: download_images.py [-s SUBREDDIT] [-n NUMBER OF PICTURES] [-p PAGE] [-q SEARCH QUERY] 
-
-	-h --help                           show this
-	-s --subreddit SUBREDDIT            specify subreddit
-	-n --number NUMBER OF PICTURES      specify number of pictures to download [default: 20]
-	-p --page PAGE                      hot, top, controversial, new, rising [default: hot]
-	-q --query SEARCH QUERY             specify a specific search term
+	Usage: import download_images.py
+           download_images.py.download(SUBREDDIT, NUM_PICS, SEARCH_TERM, PAGE, DOWNLOADDIR)
 
 
-Your images will appear in the "images" folder created by the application.
+Your images will appear in the DOWNLOADDIR folder created by the application.
 
-__Helpful note:__ To view .gif files on a Mac select the image(s) and press `cmd` + `y`.
+__Helpful note:__ To view .gif files on a Mac select the image(s) and press `cmd` + `y` or install a appropriate OS like Arch Linux.
 
 
