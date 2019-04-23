@@ -3,7 +3,7 @@
 A python3 Module for reddit that downloads pictures and gifs from a given subreddit.
 For The original script see [georgeglessner](https://github.com/georgeglessner/RedditImageDownloader)
 # Setup 
-1. Create a [reddit personal use script application](https://www.reddit.com/prefs/apps/).
+1. Create a [reddit personal use module application](https://www.reddit.com/prefs/apps/).
 
 2. Edit Following Variables in download_images.py and your applications credentials.
 
